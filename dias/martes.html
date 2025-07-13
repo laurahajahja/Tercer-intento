@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Martes - Mi Vida Fit</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1>Martes</h1>
+
+  <h2>Checklist del día ✅</h2>
+  <ul>
+    <li><input type="checkbox"> Pasear perrita (mañana)</li>
+    <li><input type="checkbox"> Ducha (10 minutos)</li>
+    <li><input type="checkbox"> Desayunar (5:30 a.m.)</li>
+    <li><input type="checkbox"> Ir a clase presencial 7:00 a.m. - 11:00 a.m.</li>
+    <li><input type="checkbox"> Almuerzo</li>
+    <li><input type="checkbox"> Pasear perrita (tarde)</li>
+    <li><input type="checkbox"> Ejercicio (después de las 2 p.m.)</li>
+    <li><input type="checkbox"> Estudiar para quiz de hoy</li>
+    <li><input type="checkbox"> Cena</li>
+    <li><input type="checkbox"> Ducha nocturna (5 min)</li>
+    <li><input type="checkbox"> Pasear perrita (noche)</li>
+  </ul>
+
+  <h2>Ejercicio del martes 🏋️‍♀️</h2>
+  <button onclick="mostrarEjercicio()">Mostrar rutina</button>
+  <div id="rutina" style="display:none; margin-top:10px;">
+    <ul>
+      <li>✅ Plancha durante 45 segundos</li>
+      <li>✅ 20 sentadillas</li>
+      <li>✅ 15 puentes de glúteos</li>
+      <li>✅ 15 levantamientos de glúteos en punta</li>
+      <li>✅ Sentadilla isométrica 45 segundos</li>
+      <li>✅ 20 abdominales con elevación de rodillas</li>
+      <li>✅ 15 estocadas/zancadas</li>
+    </ul>
+  </div>
+
+  <script>
+    function mostrarEjercicio() {
+      document.getElementById("rutina").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
