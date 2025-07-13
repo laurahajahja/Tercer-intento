@@ -1,0 +1,20 @@
+body {
+  background-color: #ffffff; /* Fondo blanco */
+  color: #000000; /* Texto negro */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
